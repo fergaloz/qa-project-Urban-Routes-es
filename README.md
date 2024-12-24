@@ -26,7 +26,8 @@ En este proyecto se automatizan las pruebas para comprobar la funcionalidad de *
 
 ## Configuración
 
-Para trabajar en este proyecto se debe clonar el repositorio de github o descargar el zip comprimido
+Para trabajar en este proyecto se debe clonar el repositorio de github o descargar el zip comprimido.
+Descargar el driver según la versión correspondiente al navegador con el que se trabaje.
 
 ## Pre requisitos
 
@@ -60,7 +61,7 @@ git clone git@github.com:username/qa-project-Urban-Routes-es.git
 
 ```bash
    💡 Asegúrate de clonar el repositorio correcto. El nombre de usuario debe ser tu propio nombre de usuario, no tripleten-com.
-```
+``` 
 ## Instalación.
  ### Trabaja con el proyecto de forma local
 
@@ -72,9 +73,10 @@ Ahora tienes una copia local del proyecto y puedes abrir la carpeta del proyecto
 ```bash
    Recuerda instalar pytest
 ```
-Necesitaras estos archivos
+Necesitaras estos archivos 
 * Data.py : Este archivo contiene la URL que necesitas y los datos necesarios para rellenar los campos que asi lo soliciten.
-* Clase.py : Este archivo contiene los localizadores y la clase `UrbanRoutes`.
+* Helpers.py : En este archio encontraras la función que devuelve el código de confirmación requerido para agregar un telefono.
+* Pages.py : Este archivo contiene los localizadores y la clase `UrbanRoutes`.
 * Main.py : Archivo en el cual se encuentra la clase `TestUrbanRoutes` y las pruebas de funcionalidad.
 
 Cuando puedas comenzar a trabajar, "Inicia el servidor" para obtener la URL de tu servidor.
